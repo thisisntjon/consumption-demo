@@ -1,6 +1,10 @@
-# Consumption Engine: public fixture
+# Consumption Engine: historical fixture
 
-This repository contains the public, synthetic vertical-slice fixture for the Consumption Engine. It is deliberately small and self-contained so a stranger can inspect the complete behavior without access to a private workstation, TheLibrary, HistoryLab, or a network service.
+> **Superseded notice · September 24, 2026**
+>
+> This repository is retained for historical reproducibility. The canonical public fixture is [`ce-stranger-replay-v1`](https://github.com/thisisntjon/ce-stranger-replay-v1/tree/9f201735313a420c3abe15a4c736864469a7a597). Use that package for the current website replay and current source review. This repository's files and recorded results remain unchanged.
+
+This repository contains an earlier public, synthetic vertical-slice fixture for the Consumption Engine. It is deliberately small and self-contained so a stranger can inspect the recorded behavior without access to a private workstation, TheLibrary, HistoryLab, or a network service.
 
 ## Run it
 

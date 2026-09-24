@@ -69,4 +69,7 @@ The comparison makes the baseline definition explicit and records the result in
 `COMPARISON.md` and `COMPARISON.json`. It is an author-run behavioral result;
 external review and broader measurements of time, cost and correctness are
 still required before claiming general superiority.
+# Historical fixture notice
+
+This directory belongs to the superseded [`consumption-demo`](https://github.com/thisisntjon/consumption-demo) package. The canonical current public fixture is [`ce-stranger-replay-v1`](https://github.com/thisisntjon/ce-stranger-replay-v1/tree/9f201735313a420c3abe15a4c736864469a7a597).
 
