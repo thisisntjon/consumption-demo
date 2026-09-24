@@ -1,4 +1,4 @@
-# Independent review checklist
+# External review checklist
 
 This checklist is for a reviewer who did not author the package. It uses only a
 fresh clone and the committed synthetic fixture.

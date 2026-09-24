@@ -79,7 +79,7 @@ def main() -> int:
         "baseline": simple,
         "consumption_engine": ce,
         "comparison": rows,
-        "review_status": "author-run; independent review pending",
+        "review_status": "author-run; external review pending",
         "limitations": [
             "synthetic manually annotated documents",
             "baseline is a transparent single-pass comparator, not every possible simpler system",

@@ -11,7 +11,7 @@
   "limitations": [
     "synthetic manually annotated fixture",
     "not scientific truth or production corpus validation",
-    "not independent fleet acceptance by itself",
+    "not fleet acceptance by itself",
     "same-run restore guard; physical clean-machine restore remains separate"
   ],
   "offline_after_download": true,

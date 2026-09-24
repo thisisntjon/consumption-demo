@@ -67,6 +67,6 @@ python examples/public_demo/compare_baseline.py --output .tmp/public-comparison
 
 The comparison makes the baseline definition explicit and records the result in
 `COMPARISON.md` and `COMPARISON.json`. It is an author-run behavioral result;
-independent review and broader measurements of time, cost and correctness are
+external review and broader measurements of time, cost and correctness are
 still required before claiming general superiority.
 

@@ -1,6 +1,6 @@
 """Caller-owned task history; freshness is checked at use, never inferred from age.
 
-Single writer, immutable numbered records. This records author checks, not independent
+Single writer, immutable numbered records. This records author checks, not a separate reviewer decision
 acceptance or truth. A caller must supply a new checked-provider response at each use.
 """
 from datetime import datetime, timezone

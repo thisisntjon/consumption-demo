@@ -270,7 +270,7 @@ def run(args):
     result = {"passed": executed.returncode == 0, "archive_sha256": archive_sha, "restored_files": restored_count,
         "lifecycle_checks": checks, "execution_seconds": time.perf_counter() - start,
         "manual_preparation_and_review_cost": "not measured by runner; session work separately recorded",
-        "review_status": "awaiting independent review", "source_root_unavailable": not root.exists(),
+        "review_status": "awaiting separate review", "source_root_unavailable": not root.exists(),
         "code": {"runner": sha(Path(__file__)), "task_history": sha(args.engine_root / "consumption_engine/task_history.py")},
         "limitations": ["manually annotated synthetic policy", "same host/interpreter Python guard, not clean-machine proof",
                        "public fixture distributed; product runtime remains private", "task history uses single writer; no authenticated acceptance"]}
