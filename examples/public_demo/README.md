@@ -37,7 +37,7 @@ checks the exact input pins and stable status projection. That decision is a
 machine-level integrity/oracle check, not a human semantic review or truth
 certification.
 
-An independent reviewer can use [INDEPENDENT-REVIEW.md](INDEPENDENT-REVIEW.md)
+A separate reviewer can use [EXTERNAL-REVIEW.md](EXTERNAL-REVIEW.md)
 to run the package twice and return a bound decision without private fleet
 access.
 Run the command twice in separate output directories and compare the
@@ -53,7 +53,7 @@ The expected run exits successfully and includes these behaviors:
 6. the exported state is checked without the original source folder.
 
 This proves a reproducible local synthetic workflow. It does not claim
-scientific truth, automatic claim extraction, independent acceptance, or a
+scientific truth, automatic claim extraction, a second-party acceptance decision, or a
 physical clean-machine restore. Those are separate qualification steps.
 
 ## Matched baseline comparison
@@ -69,3 +69,4 @@ The comparison makes the baseline definition explicit and records the result in
 `COMPARISON.md` and `COMPARISON.json`. It is an author-run behavioral result;
 independent review and broader measurements of time, cost and correctness are
 still required before claiming general superiority.
+

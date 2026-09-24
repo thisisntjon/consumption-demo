@@ -104,7 +104,7 @@ def main() -> int:
         "The baseline returns the original `3` after the correction and treats the unsupported question as answerable.",
         "The Consumption Engine preserves the original, refuses stale context, checks the `2`-retry successor and labels the unsupported case `UNKNOWN / INSUFFICIENT_EVIDENCE`.",
         "",
-        "This is an author-run behavioral comparison. It does not establish semantic truth, general superiority, speed, cost or independent acceptance.",
+        "This is an author-run behavioral comparison. It does not establish semantic truth, general superiority, speed, cost or a second-party acceptance decision.",
     ]
     (output / "COMPARISON.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps({"passed": True, "output": str(output), "behaviors": len(rows)}, sort_keys=True))

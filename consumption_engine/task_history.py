@@ -86,7 +86,7 @@ def record_checked(root, *, task, actor, session, lookup, output, check):
     return append(root, {"event": "checked", "task": task, "actor": actor, "session": session,
         "lookup": _binding(root, lookup), "output": bound, "check": _binding(root, check),
         "snapshot": native["snapshot_version"], "claim_ids": sorted(c["item_id"] for c in native["claims"]),
-        "accepted": False, "scope": "author-checked task; independent acceptance separate"})
+        "accepted": False, "scope": "author-checked task; separate review is distinct"})
 
 
 def assess(root, record, fresh_lookup):

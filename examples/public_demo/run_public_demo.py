@@ -22,10 +22,10 @@ REQUIRED_MARKERS = (
 )
 
 PINNED_INPUTS = (
-    ("examples/stateful_fixture/CE-STATEFUL-001-v1/TASK.json", "56667252a170150fdca2ecfe726d63b4699b24cb7192483f1f1ac59f397a66bd"),
-    ("examples/stateful_fixture/client/fixtures.json", "e75826480bb12684cb34354abdcaec497f80c016a441b602498e94521ebf408a"),
-    ("examples/stateful_fixture/client/rubric.json", "7f439f5720193e1fcfff45fdfdba13f5907c0fe3aab390e09090e0f97fe0a20c"),
-    ("examples/stateful_fixture/client/run_demo.py", "03f1d31e04e16944402d1302b0a36686c464c3d34d054de716733fd5c7c001c5"),
+    ("examples/stateful_fixture/CE-STATEFUL-001-v1/TASK.json", "e68c7218f2f59648786791e3913bca92e1a9ac1cd11998b9555ba8fbf99635ca"),
+    ("examples/stateful_fixture/client/fixtures.json", "777baf7556d4ccb28aa82891eedf6c7b3489a29365ea15a961763aea6240d495"),
+    ("examples/stateful_fixture/client/rubric.json", "f0481a58629b55376dece7d7723d2249466aa8973865cefc4a4211c61e0083cf"),
+    ("examples/stateful_fixture/client/run_demo.py", "7384f60fc324b56a99216ef89a953aff9034f5c31621fd79879ec06de8ee1fba"),
 )
 
 

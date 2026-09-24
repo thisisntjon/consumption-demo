@@ -13,4 +13,4 @@ python examples/stateful_demo.py `
   --output .tmp/stateful-frozen-run
 ```
 
-The fixture is synthetic and manually annotated. It demonstrates reproducible local execution; it does not establish a physical second-machine restore, independent acceptance, semantic truth, or public release authorization.
+The fixture is synthetic and manually annotated. It demonstrates reproducible local execution; it does not establish a physical second-machine restore, a second-party acceptance decision, semantic truth, or public release authorization.

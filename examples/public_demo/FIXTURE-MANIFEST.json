@@ -3,37 +3,37 @@
     {
       "bytes": 2980,
       "path": "examples/stateful_fixture/CE-STATEFUL-001-v1/TASK.json",
-      "sha256": "56667252a170150fdca2ecfe726d63b4699b24cb7192483f1f1ac59f397a66bd"
+      "sha256": "e68c7218f2f59648786791e3913bca92e1a9ac1cd11998b9555ba8fbf99635ca"
     },
     {
-      "bytes": 2073,
+      "bytes": 2051,
       "path": "examples/stateful_fixture/client/fixtures.json",
-      "sha256": "e75826480bb12684cb34354abdcaec497f80c016a441b602498e94521ebf408a"
+      "sha256": "777baf7556d4ccb28aa82891eedf6c7b3489a29365ea15a961763aea6240d495"
     },
     {
-      "bytes": 873,
+      "bytes": 844,
       "path": "examples/stateful_fixture/client/guarded_lookup.py",
-      "sha256": "c0c184c9739b66521d20663ce9cffee3ef8024910b0dd5c836383cebc32411bf"
+      "sha256": "a3e920373af0113194eec167896cf22f882a75183a7d465f83bd1687cb26b04f"
     },
     {
-      "bytes": 10199,
+      "bytes": 9992,
       "path": "examples/stateful_fixture/client/replay.py",
-      "sha256": "a08a41ef3b2d382cfe9575236fbab926ee3ce71aca637d84f57f99355d083767"
+      "sha256": "5f33b5fc0291c38c61672f0432070c5d52c2c8728bf631d21ea6f99af1ebe7c7"
     },
     {
-      "bytes": 2735,
+      "bytes": 2701,
       "path": "examples/stateful_fixture/client/rubric.json",
-      "sha256": "7f439f5720193e1fcfff45fdfdba13f5907c0fe3aab390e09090e0f97fe0a20c"
+      "sha256": "f0481a58629b55376dece7d7723d2249466aa8973865cefc4a4211c61e0083cf"
     },
     {
-      "bytes": 15956,
+      "bytes": 15716,
       "path": "examples/stateful_fixture/client/run_demo.py",
-      "sha256": "03f1d31e04e16944402d1302b0a36686c464c3d34d054de716733fd5c7c001c5"
+      "sha256": "7384f60fc324b56a99216ef89a953aff9034f5c31621fd79879ec06de8ee1fba"
     },
     {
-      "bytes": 3492,
+      "bytes": 3421,
       "path": "examples/stateful_fixture/client/sitecustomize.py",
-      "sha256": "d4ebf1f2f319e59a25136aa889e6ea783711fb3d0cac83c806c198692a229127"
+      "sha256": "25fb8ce5efd724eb9e96d30bc148eaddff749c46a08597275306bdc77028621d"
     },
     {
       "bytes": 2556,
@@ -46,9 +46,9 @@
       "sha256": "eb5548661950a17be42d21c0e647dba81d48c6add84e918fb2b3c9f8e72f2846"
     },
     {
-      "bytes": 37913,
+      "bytes": 36950,
       "path": "examples/stateful_fixture/provider/consumer/epistemic.py",
-      "sha256": "1bdd89b8f49618689ba0e9ba1235d24d86a2e0e2b8bc20c014e8dbf8636abc93"
+      "sha256": "768e49dc06dd415bd41052e87a0aab28cbc16183b7c9eabb1a965bae608b8b29"
     },
     {
       "bytes": 3916,
@@ -56,9 +56,9 @@
       "sha256": "d16e4ef837d40d0511f44eca77888174b596a7d51c9159f634c77405fd428770"
     },
     {
-      "bytes": 896,
+      "bytes": 880,
       "path": "examples/stateful_fixture/README.md",
-      "sha256": "3983af2aab9da816de6daad9e0c655fe8416224df3d156160f63a9c9b5daab9b"
+      "sha256": "a5089ea73f2b48b75c729f7847725176801c5c7028202e2be587873d96a24d6e"
     }
   ],
   "root": "examples/stateful_fixture",
