@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 2980,
+      "bytes": 2897,
       "path": "examples/stateful_fixture/CE-STATEFUL-001-v1/TASK.json",
-      "sha256": "e68c7218f2f59648786791e3913bca92e1a9ac1cd11998b9555ba8fbf99635ca"
+      "sha256": "f34c35cb2d685943009bd445fe80d2687ed32306f9062075ac408c96d9b8441b"
     },
     {
       "bytes": 2051,
@@ -56,9 +56,9 @@
       "sha256": "d16e4ef837d40d0511f44eca77888174b596a7d51c9159f634c77405fd428770"
     },
     {
-      "bytes": 880,
+      "bytes": 892,
       "path": "examples/stateful_fixture/README.md",
-      "sha256": "a5089ea73f2b48b75c729f7847725176801c5c7028202e2be587873d96a24d6e"
+      "sha256": "bb4c050fb3c304292e7d2e4bee2a8bda0427a5d577d39c63a7e453634087307f"
     }
   ],
   "root": "examples/stateful_fixture",
