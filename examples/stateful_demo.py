@@ -273,7 +273,7 @@ def run(args):
         "review_status": "awaiting independent review", "source_root_unavailable": not root.exists(),
         "code": {"runner": sha(Path(__file__)), "task_history": sha(args.engine_root / "consumption_engine/task_history.py")},
         "limitations": ["manually annotated synthetic policy", "same host/interpreter Python guard, not clean-machine proof",
-                       "private runtime; no public distribution approval", "task history uses single writer; no authenticated acceptance"]}
+                       "public fixture distributed; product runtime remains private", "task history uses single writer; no authenticated acceptance"]}
     write(output / "RESULT.json", result)
     report = render_report(output, result, checks, archive_sha, restored_count)
     (output / "REPORT.md").write_text(report, encoding="utf8")
@@ -302,3 +302,4 @@ if __name__ == "__main__":
     sys.path.insert(0, str(options.client_root.resolve()))
     sys.path.insert(0, str(options.engine_root.resolve()))
     raise SystemExit(run(options))
+
