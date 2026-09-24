@@ -1,0 +1,34 @@
+{
+  "schema": "consumption-demo-rubric-v1",
+  "frozen_before_execution": "2026-09-24",
+  "scope": "Synthetic text fixture and deterministic client of existing private provider/tool. Not a model benchmark or production qualification.",
+  "questions": {
+    "policy": "batch imports retry limit",
+    "unsupported": "importer encryption cipher",
+    "failure": "index-only recovery method lost correction links"
+  },
+  "cases": {
+    "initial": {"status": "answered", "ids": ["retry-policy-v1"], "retry_limit": 3},
+    "corrected": {"status": "answered", "ids": ["retry-policy-v2"], "retry_limit": 2},
+    "conflicting": {"status": "ambiguous", "ids": ["retry-policy-v2", "retry-policy-conflict"], "retry_limit": null},
+    "unsupported": {"status": "empty", "ids": [], "retry_limit": null},
+    "failure": {"status": "answered", "ids": ["recovery-failure"], "retry_limit": null},
+    "withdrawn": {"status": "empty", "ids": [], "retry_limit": null},
+    "tampered": {"status": "unavailable", "ids": [], "reason": "source_hash_mismatch", "retry_limit": null},
+    "missing": {"status": "unavailable", "ids": [], "reason": "evidence_unreadable_or_invalid", "retry_limit": null},
+    "stale_snapshot": {"status": "unavailable", "ids": [], "reason": "stale_snapshot", "retry_limit": null}
+  },
+  "acceptance": [
+    "Preserve and hash every synthetic original, including the exact copy and conflicting publication.",
+    "Exact copies share content identity and do not create additional claim records; different hashes do not prove independence.",
+    "The corrected lookup retains version 1 and its withdrawal record while returning version 2.",
+    "Do not produce a configuration from ambiguity, absence, withdrawn evidence or invalid evidence.",
+    "Returned passages must occur in originals with matching hashes; this is not a general entailment test.",
+    "Configuration values must be independently checked against this frozen rubric.",
+    "Compare raw lexical retrieval and the same retrieval with supplied lifecycle/dedup metadata; disclose annotation costs and refrain from model-quality claims.",
+    "Restore sources, annotations, claims, corrections, runtime code and client from a pinned archive into a fresh target and execute every case again.",
+    "Make original generated data location unavailable during replay; deny Python reads outside restored data and declared runtime, and deny socket access in replay processes.",
+    "Compare fresh restored outputs by statuses, claims, snapshots and evidence identities, excluding only timestamps and relocated absolute paths.",
+    "Obtain separate review of the exact code and report before describing the demonstration as reviewed."
+  ]
+}

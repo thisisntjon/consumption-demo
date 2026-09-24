@@ -1,0 +1,47 @@
+{
+  "baseline": {
+    "after_correction_reused_answer": 3,
+    "checks_successor": false,
+    "initial_answer": 3,
+    "initial_sources_counted": 2,
+    "preserves_original": false,
+    "refuses_stale_context": false,
+    "unsupported_question_answer": 3
+  },
+  "baseline_definition": "first matching text retained and reused; no provenance, correction or freshness state",
+  "comparison": [
+    {
+      "behavior": "preserves original evidence",
+      "consumption_engine": true,
+      "single_pass_baseline": false
+    },
+    {
+      "behavior": "refuses stale context after correction",
+      "consumption_engine": true,
+      "single_pass_baseline": false
+    },
+    {
+      "behavior": "checks the corrected successor",
+      "consumption_engine": true,
+      "single_pass_baseline": false
+    }
+  ],
+  "consumption_engine": {
+    "after_correction_reused_answer": 2,
+    "checks_successor": true,
+    "initial_answer": 3,
+    "preserves_original": true,
+    "refuses_stale_context": true,
+    "unsupported_question_answer": "UNKNOWN / INSUFFICIENT_EVIDENCE"
+  },
+  "documents": "same committed synthetic fixture for both paths",
+  "limitations": [
+    "synthetic manually annotated documents",
+    "baseline is a transparent single-pass comparator, not every possible simpler system",
+    "no claim about semantic truth, speed, cost or production accuracy",
+    "same-host run; clean-machine restore and external validation remain separate"
+  ],
+  "question": "How many retries should a batch import perform?",
+  "review_status": "author-run; independent review pending",
+  "schema": "consumption-public-baseline-comparison-v1"
+}

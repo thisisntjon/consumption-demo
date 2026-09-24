@@ -1,0 +1,22 @@
+{
+  "schema": "consumption-demo-fixtures-v1",
+  "rights": "Original synthetic material created for this demonstration. No customer or research corpus content.",
+  "documents": {
+    "policy-v1.md": "# Batch importer policy, version 1\n\nStatus: approved on 2026-01-01.\nScope: batch imports only.\nBatch imports may retry up to 3 times.\n",
+    "policy-v1-copy.md": "# Batch importer policy, version 1\n\nStatus: approved on 2026-01-01.\nScope: batch imports only.\nBatch imports may retry up to 3 times.\n",
+    "policy-v2.md": "# Batch importer policy, version 2\n\nStatus: approved on 2026-02-01. Replaces version 1.\nScope: batch imports only.\nBatch imports may retry up to 2 times.\nThe correction does not establish limits for interactive requests.\n",
+    "conflicting-policy.md": "# Batch importer policy, disputed publication\n\nStatus: competing approved publication dated 2026-02-01. Authority unresolved.\nScope: batch imports only.\nBatch imports may retry up to 4 times.\nA reviewer must resolve the disagreement before configuring the importer.\n",
+    "failed-restore.md": "# Synthetic recovery rehearsal\n\nThe index-only recovery method lost correction links.\nThis fixture records a failed approach, not a measurement of the product.\nA successful recovery must preserve originals and correction records together.\n"
+  },
+  "annotations": {
+    "method": "Manually authored fixture annotations. No automated claim extraction, semantic independence detection or contradiction discovery.",
+    "policy_scope": "batch imports only",
+    "v1_span": "Batch imports may retry up to 3 times.",
+    "v2_span": "Batch imports may retry up to 2 times.",
+    "conflict_span": "Batch imports may retry up to 4 times.",
+    "failure_span": "The index-only recovery method lost correction links.",
+    "v2_supersedes": "retry-policy-v1",
+    "conflicting_publication": "unresolved; neither active policy may be silently selected",
+    "independence": "Exact byte identity is detected. Independence of different documents is not inferred."
+  }
+}

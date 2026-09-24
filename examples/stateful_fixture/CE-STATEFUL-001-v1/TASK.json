@@ -1,0 +1,83 @@
+{
+  "criteria": [
+    "Same behavioral acceptance criteria as CE-STATEFUL-001 v1 with inputs packaged in this repository."
+  ],
+  "inputs": [
+    {
+      "path": "../client/fixtures.json",
+      "sha256": "e75826480bb12684cb34354abdcaec497f80c016a441b602498e94521ebf408a"
+    },
+    {
+      "path": "../client/guarded_lookup.py",
+      "sha256": "c0c184c9739b66521d20663ce9cffee3ef8024910b0dd5c836383cebc32411bf"
+    },
+    {
+      "path": "../client/replay.py",
+      "sha256": "a08a41ef3b2d382cfe9575236fbab926ee3ce71aca637d84f57f99355d083767"
+    },
+    {
+      "path": "../client/rubric.json",
+      "sha256": "7f439f5720193e1fcfff45fdfdba13f5907c0fe3aab390e09090e0f97fe0a20c"
+    },
+    {
+      "path": "../client/run_demo.py",
+      "sha256": "03f1d31e04e16944402d1302b0a36686c464c3d34d054de716733fd5c7c001c5"
+    },
+    {
+      "path": "../client/sitecustomize.py",
+      "sha256": "d4ebf1f2f319e59a25136aa889e6ea783711fb3d0cac83c806c198692a229127"
+    },
+    {
+      "path": "../provider/consumer/claim_v2.py",
+      "sha256": "c3534685ac273f24aea5881e3ff8f4d959acba420e7a7970e6f69a74776ba398"
+    },
+    {
+      "path": "../provider/consumer/consumer.py",
+      "sha256": "eb5548661950a17be42d21c0e647dba81d48c6add84e918fb2b3c9f8e72f2846"
+    },
+    {
+      "path": "../provider/consumer/epistemic.py",
+      "sha256": "1bdd89b8f49618689ba0e9ba1235d24d86a2e0e2b8bc20c014e8dbf8636abc93"
+    },
+    {
+      "path": "../provider/consumer/library_card.py",
+      "sha256": "d16e4ef837d40d0511f44eca77888174b596a7d51c9159f634c77405fd428770"
+    },
+    {
+      "path": "../../../engine.py",
+      "sha256": "8f87435f4b20e260e058f774c43b8e3d2c12115ca356727fd6dfd7635012b36a"
+    },
+    {
+      "path": "../../../consumption_engine/__main__.py",
+      "sha256": "b265a80d92d6495769267029c67aff295ef45a4cfd427abc03b8f35a4d6b7384"
+    },
+    {
+      "path": "../../../consumption_engine/receipt.py",
+      "sha256": "47f0ba9ea522e7b4db3b59c1c288f3b70f9cf0a5a84975f8d7e673769fd28de7"
+    },
+    {
+      "path": "../../../consumption_engine/git_gate.py",
+      "sha256": "0e87d965b06c126ed4f71449eae0f812efbf892a638e805caba0c7e874d6fb4e"
+    },
+    {
+      "path": "../../../consumption_engine/shared_packet.py",
+      "sha256": "782712441972dfca9264e2747cd54f2395f2fbfb4d055d4c956be70282865525"
+    },
+    {
+      "path": "../../../consumption_engine/__init__.py",
+      "sha256": "50a2bad30fd561d53289f20e243cc5a1db7e0ca08fa17a6ee3a2ffbbddd4b590"
+    }
+  ],
+  "limits": [
+    "Synthetic claims are manually annotated.",
+    "Local frozen-input reproduction does not prove cross-machine acceptance or public readiness."
+  ],
+  "return": "Self-contained frozen inputs for the stateful Consumption Engine demo",
+  "reviewer": "pending separate reviewer",
+  "task_id": "CE-STATEFUL-001-local-frozen-inputs",
+  "version": 1,
+  "writer": "codex:lead",
+  "writes": [
+    "new output directory only"
+  ]
+}

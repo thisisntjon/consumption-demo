@@ -1,0 +1,51 @@
+{
+  "archive_sha256": "c3ca1d78bc253a01d3078b8f1167ea26b352b8369092d3bdc3b4ffb59337e91d",
+  "command": "python examples/public_demo/run_public_demo.py",
+  "finished_at": "2026-09-24T21:30:25.802119+00:00",
+  "fixture_manifest_sha256": "215ae6db431d81dead1b10ad371fed5aae320b03e0751168fe4a4d09db07d697",
+  "inputs": [
+    {
+      "path": "examples/stateful_fixture/CE-STATEFUL-001-v1/TASK.json",
+      "sha256_after": "c115617e6ee2a02796a25415604f9729296c4aaecb7a6faae28a46ab6be03b71",
+      "sha256_before": "c115617e6ee2a02796a25415604f9729296c4aaecb7a6faae28a46ab6be03b71"
+    },
+    {
+      "path": "examples/stateful_fixture/client/fixtures.json",
+      "sha256_after": "e75826480bb12684cb34354abdcaec497f80c016a441b602498e94521ebf408a",
+      "sha256_before": "e75826480bb12684cb34354abdcaec497f80c016a441b602498e94521ebf408a"
+    },
+    {
+      "path": "examples/stateful_fixture/client/rubric.json",
+      "sha256_after": "7f439f5720193e1fcfff45fdfdba13f5907c0fe3aab390e09090e0f97fe0a20c",
+      "sha256_before": "7f439f5720193e1fcfff45fdfdba13f5907c0fe3aab390e09090e0f97fe0a20c"
+    },
+    {
+      "path": "examples/stateful_fixture/client/run_demo.py",
+      "sha256_after": "03f1d31e04e16944402d1302b0a36686c464c3d34d054de716733fd5c7c001c5",
+      "sha256_before": "03f1d31e04e16944402d1302b0a36686c464c3d34d054de716733fd5c7c001c5"
+    }
+  ],
+  "limitations": [
+    "manually annotated synthetic policy",
+    "same host/interpreter Python guard, not clean-machine proof",
+    "private runtime; no public distribution approval",
+    "task history uses single writer; no authenticated acceptance"
+  ],
+  "machine": {
+    "hostname": "runnervmtr4k5",
+    "os": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "python": "3.11.16"
+  },
+  "offline_after_download": true,
+  "oracle_projection": {
+    "corrected_answer": 2,
+    "initial_answer": 3,
+    "old_snapshot": "unavailable",
+    "source_root_unavailable": true,
+    "successor_state": "checked_current",
+    "unsupported": "UNKNOWN / INSUFFICIENT_EVIDENCE"
+  },
+  "schema": "consumption-public-demo-receipt-v1",
+  "started_at": "2026-09-24T21:30:25.069269+00:00",
+  "status": "passed"
+}

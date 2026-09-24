@@ -1,0 +1,27 @@
+{
+  "expected_projection": {
+    "corrected_answer": 2,
+    "initial_answer": 3,
+    "old_snapshot": "unavailable",
+    "source_root_unavailable": true,
+    "successor_state": "checked_current",
+    "unsupported": "UNKNOWN / INSUFFICIENT_EVIDENCE"
+  },
+  "fixture_manifest_sha256": "6afbfccba633184c9f4c72aa2e8e1999134bddf5d501012cb5eaae2def915f2f",
+  "limitations": [
+    "synthetic manually annotated fixture",
+    "not scientific truth or production corpus validation",
+    "not independent fleet acceptance by itself",
+    "same-run restore guard; physical clean-machine restore remains separate"
+  ],
+  "offline_after_download": true,
+  "pinned_inputs": {
+    "examples/stateful_fixture/CE-STATEFUL-001-v1/TASK.json": "56667252a170150fdca2ecfe726d63b4699b24cb7192483f1f1ac59f397a66bd",
+    "examples/stateful_fixture/client/fixtures.json": "e75826480bb12684cb34354abdcaec497f80c016a441b602498e94521ebf408a",
+    "examples/stateful_fixture/client/rubric.json": "7f439f5720193e1fcfff45fdfdba13f5907c0fe3aab390e09090e0f97fe0a20c",
+    "examples/stateful_fixture/client/run_demo.py": "03f1d31e04e16944402d1302b0a36686c464c3d34d054de716733fd5c7c001c5"
+  },
+  "runtime": "Python 3.11+",
+  "schema": "consumption-public-demo-oracles-v1"
+}
+
