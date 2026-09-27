@@ -13,7 +13,7 @@ python ledger/verify_ledger.py
 Python 3.11 or newer, standard library only, no network. Expected output:
 
 ```text
-PASS: 34 decisions; confirmed 11, refuted 14, inconclusive 5, open 4; ledger sha256 4133001c...
+PASS: 34 decisions; confirmed 11, refuted 14, inconclusive 5, open 4; ledger sha256 0427d8af...
 ```
 
 The script checks that ids are consecutive, that every row states a question, a check and a bar, that every resolved row has an outcome recorded no earlier than the row was stated, that open rows carry no outcome, and that the tally, file hash and `SUMMARY.md` match. Change one status in `DECISIONS.jsonl` and it fails.

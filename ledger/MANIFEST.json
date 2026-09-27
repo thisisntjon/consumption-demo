@@ -7,11 +7,11 @@
     "Fields kept verbatim: id, node, question, evidence, decision, check, bar, judge_at, status, outcome, resolved_at.",
     "Renamed: time -> stated_at (value unchanged).",
     "engine_lookups replaced by engine_lookup_count (the lookup query log is internal).",
-    "Local filesystem paths (drive letters, home-directory paths) replaced with <private-path>; 6 occurrences.",
+    "Local filesystem paths (drive letters, home-directory paths) replaced with <private-path>; 9 occurrences (drive-letter, home-directory and absolute Unix paths).",
     "source_row_sha256 is the SHA-256 of the exact original ledger line, so a later audit can bind each public row to its private original."
   ],
   "ledger": "DECISIONS.jsonl",
-  "ledger_sha256": "4133001c34af7be353b2756dbc76cebd1807dda556528c4f0ec133f2c64e253a",
+  "ledger_sha256": "0427d8aff79c74d59840a7ab61643f9e6b0bb950021dc8b35b8c20e8200618f4",
   "rows": 34,
   "tally": {
     "confirmed": 11,
