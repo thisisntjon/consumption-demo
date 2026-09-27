@@ -1,0 +1,23 @@
+{
+  "title": "Consumption Engine decision ledger, public export",
+  "exported_at": "2026-09-27T19:30:00Z",
+  "source": "private team ledger knowledge/DECISIONS.jsonl (not published)",
+  "source_sha256": "f876583d80b810a62feb250158e3fae07e5dc58d576885386be5081866366346",
+  "export_rules": [
+    "Fields kept verbatim: id, node, question, evidence, decision, check, bar, judge_at, status, outcome, resolved_at.",
+    "Renamed: time -> stated_at (value unchanged).",
+    "engine_lookups replaced by engine_lookup_count (the lookup query log is internal).",
+    "Local filesystem paths (drive letters, home-directory paths) replaced with <private-path>; 6 occurrences.",
+    "source_row_sha256 is the SHA-256 of the exact original ledger line, so a later audit can bind each public row to its private original."
+  ],
+  "ledger": "DECISIONS.jsonl",
+  "ledger_sha256": "4133001c34af7be353b2756dbc76cebd1807dda556528c4f0ec133f2c64e253a",
+  "rows": 34,
+  "tally": {
+    "confirmed": 11,
+    "refuted": 14,
+    "inconclusive": 5,
+    "open": 4
+  },
+  "summary_sha256": "13cc06e1fb741d35208a535e7e0b93874df6c319e9d69254511fca234b1b1a0b"
+}
