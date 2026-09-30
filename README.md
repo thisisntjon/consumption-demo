@@ -2,7 +2,19 @@
 
 Consumption Engine is a local research prototype for preserving evidence, preparing task context and reusing checked procedures. The product runtime is private. This repository publishes selected research records and a historical synthetic fixture.
 
-## Latest local result: September 30, 2026
+## Latest local update: September 30, 2026
+
+Working ingestion and evidence delivery extend the demonstrated manual procedure reuse below; **end-to-end efficiency remains unproven**. Read the [dated intake, PDF reading, answer and maintenance update](https://simoneresearch.com/evidence/consumption-ingestion-2026-09-30/).
+
+- Selected PDF intake: **256 documents, 899 MB decimal, 7,555 pages**, initial **101.8 seconds**; unchanged replay **6.1 seconds**, 256 cache hits, zero reparses. Mechanical qualification; engineering, preparation and review excluded.
+- Six pages from two papers: creator order passed **16/17** valid prose checks versus coordinate sorting **1/17**. One invalid frozen criterion is disclosed and originals retained. Optional source-checked page access was accepted; one complete response took **0.315 seconds / 1,873 tokens**. Footnotes, captions, tables, equations and diagrams remain limited; default indexing unchanged.
+- **36 answer responses**: lexical **7/12** grounded answers versus RRF **6/12**, plus unsupported refusal checks. Lexical retained; no universal superiority or total-cost claim.
+- Explicit caller-selected complete text ranges deliver source-bound passages without copied briefs; changed sources refuse and explicit refresh produces a checked successor. The later revision records **258 passing tests plus recovery**, not general agent efficacy.
+- Frozen maintenance proposals: **0/3 accepted in each condition**; prepared used **23,638 versus 13,012 tokens (+81.7%)**. Three later assisted corrections were separately accepted; failed scores remain unchanged.
+
+These aggregates were inspected in retained local output/review records, not externally reproduced. No private papers, runtime or raw data are released here. MiniCheck remains advisory: its limited audit found three false acceptances among 72 negatives with shared-source/data-overlap caveats; simulated reviewer savings are not operational evidence.
+
+## Earlier procedure result: September 30, 2026
 
 CE-EXEC-01 accepted **four generated procedures** across ordinary and prepared conditions. **Two retained procedures were manually selected and reused successfully on six new-input batches**, with **zero dispatch model calls** and **two changed-source refusals**. Zero dispatch calls excludes procedure generation, preparation and review. Prepared generation used **21,103 reported model tokens**, ordinary **11,151**; end-to-end savings were not demonstrated.
 
