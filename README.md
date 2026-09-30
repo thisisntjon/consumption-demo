@@ -1,22 +1,36 @@
 # Consumption Engine: public research record
 
-The Consumption Engine turns a large, growing, mixed-quality pile of documents into current, checkable knowledge that AI agents can use without a human reviewing every file. This repository holds the parts of that work that anyone can inspect and rerun. The engine itself is private.
+Consumption Engine is a local research prototype for preserving evidence, preparing task context and reusing checked procedures. The product runtime is private. This repository publishes selected research records and a historical synthetic fixture.
 
-Project page: <https://simoneresearch.com/product/consumption-engine/>
+## Latest local result: September 30, 2026
 
-## Latest: decision ledger, September 27, 2026
+CE-EXEC-01 accepted **four generated procedures** across ordinary and prepared conditions. **Two retained procedures were manually selected and reused successfully on six new-input batches**, with **zero dispatch model calls** and **two changed-source refusals**. Zero dispatch calls excludes procedure generation, preparation and review. Prepared generation used **21,103 reported model tokens**, ordinary **11,151**; end-to-end savings were not demonstrated.
 
-[`ledger/`](ledger/) publishes 34 preregistered decisions from one working day: each states its question, check and pass bar before the check ran, then records the outcome. 11 were confirmed, 14 refuted, 5 inconclusive and 4 were still open at export.
+The subsequent CE-REUSE-02 study is independently accepted and closed as a negative result for autonomous reuse and efficiency. All four attempts completed; each condition accepted one of two activities. No agent selected `run_skill` or made a retrieval call. Skill availability used 11,818 reported tokens versus ordinary 11,317. Citations alone do not demonstrate evidence consumption.
+
+## Run or inspect
+
+- [Product and capability boundaries](https://simoneresearch.com/product/consumption-engine/)
+- [Dated evaluation conditions and source version](https://simoneresearch.com/evidence/consumption-results-2026-09-30/)
+- [Runnable public synthetic fixture](https://github.com/thisisntjon/ce-stranger-replay-v1/tree/8374bb6ee93edef37f57f284532d9487d5fd2e2d), released as `v1.0.0-fixture`
+- [September 27 decision ledger](https://github.com/thisisntjon/consumption-demo/tree/7df8429ba8de11ae3bf571cc9ee6bab03386b1ae/ledger)
+
+## Evidence and limits
+
+The September 30 aggregates come from independently inspected retained local output/check records and recorded nonauthor acceptance. Private receipts, source data and runtime are not published here, so these outcomes are **not publicly reproducible**. Two known public course policies, finite inputs, manual preparation and unmeasured engineering/review/energy costs limit the results. Source bindings establish byte identity, not semantic truth or reviewer authentication. The Library and CE are complementary projects; these results do not establish complete integration, general autonomy or overall economics.
+
+The public ledger verifies process records and file integrity, not its cited private outcome receipts. Its 49/50 claim-support result was graded by Claude-based agents on the same team, not independently reproduced externally. It publishes 34 decisions: 11 confirmed, 14 refuted, five inconclusive and four open at export.
+
+To check the immutable ledger snapshot:
 
 ```text
+git clone https://github.com/thisisntjon/consumption-demo.git
+cd consumption-demo
+git checkout 7df8429ba8de11ae3bf571cc9ee6bab03386b1ae
 python ledger/verify_ledger.py
 ```
 
-Read [`ledger/README.md`](ledger/README.md) for what the day shows and the limits on reading it.
-
-## Current public fixture
-
-The canonical runnable fixture is [`ce-stranger-replay-v1`](https://github.com/thisisntjon/ce-stranger-replay-v1/tree/9f201735313a420c3abe15a4c736864469a7a597), tag `v1.0.0-fixture`. Use it for the website replay and for source review.
+The earlier website link pinned `9f201735313a420c3abe15a4c736864469a7a597`; that is a historical snapshot, not the released fixture tag target.
 
 ## Historical fixture (superseded September 24, 2026)
 
