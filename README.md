@@ -6,7 +6,7 @@ Consumption Engine is a local research prototype for preserving evidence, prepar
 
 Working ingestion and evidence delivery extend the demonstrated manual procedure reuse below; **end-to-end efficiency remains unproven**. Read the [dated intake, PDF reading, answer and maintenance update](https://simoneresearch.com/evidence/consumption-ingestion-2026-09-30/).
 
-- Selected PDF intake: **256 documents, 899 MB decimal, 7,555 pages**, initial **101.8 seconds**; unchanged replay **6.1 seconds**, 256 cache hits, zero reparses. Mechanical qualification; engineering, preparation and review excluded.
+- Selected document intake: **256 documents**, initial **101.8 seconds**; unchanged replay **6.1 seconds**, 256 cache hits, zero reparses. Mechanical qualification; engineering, preparation and review excluded.
 - Six pages from two papers: creator order passed **16/17** valid prose checks versus coordinate sorting **1/17**. One invalid frozen criterion is disclosed and originals retained. Optional source-checked page access was accepted; one complete response took **0.315 seconds / 1,873 tokens**. Footnotes, captions, tables, equations and diagrams remain limited; default indexing unchanged.
 - **36 answer responses**: lexical **7/12** grounded answers versus RRF **6/12**, plus unsupported refusal checks. Lexical retained; no universal superiority or total-cost claim.
 - Explicit caller-selected complete text ranges deliver source-bound passages without copied briefs; changed sources refuse and explicit refresh produces a checked successor. The later revision records **258 passing tests plus recovery**, not general agent efficacy.
@@ -14,11 +14,13 @@ Working ingestion and evidence delivery extend the demonstrated manual procedure
 
 These aggregates were inspected in retained local output/review records, not externally reproduced. No private papers, runtime or raw data are released here. MiniCheck remains advisory: its limited audit found three false acceptances among 72 negatives with shared-source/data-overlap caveats; simulated reviewer savings are not operational evidence.
 
+README clarification, October 11, 2026: this summary now follows the [October 7 correction to the intake report](https://simoneresearch.com/evidence/consumption-ingestion-2026-09-30/#intake). The byte-size and page counts were removed because the report has no public artifact supporting them. The 256-document count and recorded timings are unchanged. Review terminology now identifies separate review within the research effort.
+
 ## Earlier procedure result: September 30, 2026
 
 CE-EXEC-01 accepted **four generated procedures** across ordinary and prepared conditions. **Two retained procedures were manually selected and reused successfully on six new-input batches**, with **zero dispatch model calls** and **two changed-source refusals**. Zero dispatch calls excludes procedure generation, preparation and review. Prepared generation used **21,103 reported model tokens**, ordinary **11,151**; end-to-end savings were not demonstrated.
 
-The subsequent CE-REUSE-02 study is independently accepted and closed as a negative result for autonomous reuse and efficiency. All four attempts completed; each condition accepted one of two activities. No agent selected `run_skill` or made a retrieval call. Skill availability used 11,818 reported tokens versus ordinary 11,317. Citations alone do not demonstrate evidence consumption.
+The subsequent CE-REUSE-02 study completed and received separate review within the research effort. Its result did not establish autonomous reuse or efficiency. All four attempts completed; each condition accepted one of two activities. No agent selected `run_skill` or made a retrieval call. Skill availability used 11,818 reported tokens versus ordinary 11,317. Citations alone do not demonstrate evidence consumption.
 
 ## Run or inspect
 
@@ -29,7 +31,7 @@ The subsequent CE-REUSE-02 study is independently accepted and closed as a negat
 
 ## Evidence and limits
 
-The September 30 aggregates come from independently inspected retained local output/check records and recorded nonauthor acceptance. Private receipts, source data and runtime are not published here, so these outcomes are **not publicly reproducible**. Two known public course policies, finite inputs, manual preparation and unmeasured engineering/review/energy costs limit the results. Source bindings establish byte identity, not semantic truth or reviewer authentication. The Library and CE are complementary projects; these results do not establish complete integration, general autonomy or overall economics.
+The September 30 aggregates come from inspection of retained local output/check records and recorded nonauthor review within the research effort. This is not external reproduction. Private receipts, source data and runtime are not published here, so these outcomes are **not publicly reproducible**. Two known public course policies, finite inputs, manual preparation and unmeasured engineering/review/energy costs limit the results. Source bindings establish byte identity, not semantic truth or reviewer authentication. The Library and CE are complementary projects; these results do not establish complete integration, general autonomy or overall economics.
 
 The public ledger verifies process records and file integrity, not its cited private outcome receipts. Its 49/50 claim-support result was graded by Claude-based agents on the same team, not independently reproduced externally. It publishes 34 decisions: 11 confirmed, 14 refuted, five inconclusive and four open at export.
 
